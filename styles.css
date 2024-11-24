@@ -1,0 +1,28 @@
+
+/* RESET para márgenes y paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilo general permanece igual */
+
+/* Página tienda */
+#shop-page {
+    padding: 2rem;
+    background-color: #f8f8f8;
+}
+
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.shop-products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    justify-content: center;
+}
